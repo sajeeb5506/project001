@@ -1,0 +1,134 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+.nav-logo{
+text-align: left;
+}
+.nav-heading{
+text-align: right;
+}
+.nav-menu{
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.nav-menu a{
+   margin: 20px 0px; 
+   padding: 20px;
+   background-color: transparent;
+}
+/* nav-end */
+ /* profile-start */
+ .profile .top-weather-icon{
+ 
+    right: 100px;
+    width: 150px;
+    transition:widrh 2s transform 2s;
+
+
+}
+.profile .top-weather-icon:hover{
+width: 180px;
+
+}
+.profile .bottom-weather-icon {
+ 
+    left: 100px;
+    width: 150px;
+    transition:widrh 2s transform 2s;
+
+
+}
+.profile .bottom-weather-icon:hover{
+width: 180px;
+}
+
+.profile-decr p{
+    text-align: center;
+    color: gray;
+    width: 50%;
+    margin:  0 auto;
+    margin-bottom: 20px;
+}
+ /* profile-end */
+ /* about me-start */
+ .aboutme-img{
+     margin-top: 120px;
+ }
+ .aboutme-img img{
+     width: 250px;
+     height: 200px;
+ }
+ .aboutme-dec p{
+     text-align: left;
+ }
+
+ /* about me-end */
+
+ 
+
+ /* professional-experience-start  */
+.professional-experience{
+    padding-right: 20px;
+}
+
+
+ /* professional-experience-end  */
+
+ /* contact-sectation-start */
+  .achivement{
+      padding-right: 20px;
+  }
+
+ /* contact-sectation-end */
+  /* contact-sectation-start */
+  .contact-link{
+      position: relative;
+   
+      
+  }
+  .media-button{
+      position: absolute;
+      left: 50%;
+      margin-top: 200px;
+      top: 50%;
+     transform: translate(-50%,-50%);
+
+
+  }
+  
+  
+
+  /* contact-sectation-end */
+
+  /* footer-start */
+        .footer-menu{
+            margin-top: 20px;
+        }
+    
+         .footer-menu a{
+             display: inline;
+             margin: 10px;
+         }
+         .footer-decs{
+             margin-top:20px ;
+         }
+         .footer-menu a:hover{
+            background-color: gray;
+            border-radius: 1000px;
+            padding: 0 10px;
+         }
+        
+ /* footer-end */
